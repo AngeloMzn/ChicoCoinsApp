@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -35,5 +37,34 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction ft = fm.beginTransaction();
         ft.add(R.id.direito, fragChicoMentiroso);
         ft.commit();
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                FragmentTransaction ft = fm.beginTransaction();
+                switch (position){
+                    case 0:
+                        Frag_ChicoMentiroso fragChicoMentiroso = new Frag_ChicoMentiroso();
+                        ft.replace(R.id.direito, fragChicoMentiroso);
+                        ft.addToBackStack("pilha");
+                        ft.commit();
+                        break;
+                    case 1:
+                        Frag_ChicoInfiel fragChicoInfiel = new Frag_ChicoInfiel();
+                        ft.replace(R.id.direito, fragChicoInfiel);
+                        ft.addToBackStack("pilha");
+                        ft.commit();
+                        break;
+                    case 2:
+                        Frag_ChicoFiel fragChicoFiel = new Frag_ChicoFiel();
+                        ft.replace(R.id.direito, fragChicoFiel);
+                        ft.addToBackStack("pilha");
+                        ft.commit();
+                        break;
+
+
+                }
+            }
+        });
     }
 }
