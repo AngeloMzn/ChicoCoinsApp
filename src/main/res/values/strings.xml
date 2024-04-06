@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chicoMentiroso">"Chico mentiroso"</string>
+    <string name="chicoInfiel">"Chico infiel"</string>
+    <string name="chicoFiel">"Chico o mais fiel"</string>
+</resources>
