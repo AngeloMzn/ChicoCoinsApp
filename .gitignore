@@ -1,1 +1,16 @@
 /build
+/.gradle
+/.idea
+build.gradle.kts
+gradle.properties
+build.gradle.kts
+gradle/libs.versions.toml
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+settings.gradle.kts
+local.properties
+gradlew.bat
+gradlew
+build.gradle.kts
+build.gradle.kts
+*.kts
