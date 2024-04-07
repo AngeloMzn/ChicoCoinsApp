@@ -10,21 +10,39 @@
 
     <LinearLayout
         android:id="@+id/esquerdo"
-        android:layout_width="64dp"
+        android:layout_width="167dp"
         android:layout_height="match_parent"
         android:layout_weight="2"
         android:orientation="vertical">
 
         <ListView
             android:id="@+id/listHistoriaChico"
-            android:layout_width="242dp"
-            android:layout_height="match_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="194dp" />
+
+        <TextView
+            android:id="@+id/label_spinerPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/label_spinerPage" />
+
+        <Spinner
+            android:id="@+id/spinnerPage"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/direito"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="6"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical">
+
+    </LinearLayout>
 </LinearLayout>

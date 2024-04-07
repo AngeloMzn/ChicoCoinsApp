@@ -16,11 +16,11 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/txt_Infiel"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:gravity="center"
-        android:layout_marginTop="150dp"
+        android:id="@+id/txtview_fiel"
+        android:layout_width="170dp"
+        android:layout_height="691dp"
         android:layout_marginLeft="5dp"
-        android:text="TextView" />
+        android:layout_marginTop="32dp"
+        android:gravity="left"
+        android:text="@string/txtview_fiel" />
 </FrameLayout>

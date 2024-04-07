@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
         list.setAdapter(adapter);
 
+
         Frag_ChicoMentiroso fragChicoMentiroso = new Frag_ChicoMentiroso();
         FragmentTransaction ft = fm.beginTransaction();
         ft.add(R.id.direito, fragChicoMentiroso);
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         Frag_ChicoFiel fragChicoFiel = new Frag_ChicoFiel();
+
                         ft.replace(R.id.direito, fragChicoFiel);
                         ft.addToBackStack("pilha");
                         ft.commit();

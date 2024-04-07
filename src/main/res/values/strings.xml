@@ -5,4 +5,14 @@
     <string name="chicoMentiroso">"Chico mentiroso"</string>
     <string name="chicoInfiel">"Chico infiel"</string>
     <string name="chicoFiel">"Chico o mais fiel"</string>
+    <string name="txtview_fiel">"Chico estourou a bolha dos fãs do Casimiro, seu amigo e motivo pelo qual ficou conhecido, ao ganhar destaque no Twitter e no TikTok após participar de um podcast com a atriz Valentina Bandeira. A dupla fazia parte de uma ação publicitária em que os dois falavam sobre relacionamentos, e ele ganhou a fama de sedutor na internet depois que alguns trechos do programa viralizaram nas redes.
+Inclusive, foi a partir desses trechos que Luísa Sonza teria conhecido o rapaz. Em um dos cortes virais, a cantora comentou: "Quem é?". Após o flerte na web, os dois se encontraram pela primeira vez em um show de Caetano Veloso. A cantora e o influenciador assumiram o relacionamento em julho deste ano, após Chico fazer uma declaração de aniversário para ela em sua rede social. Com a agenda corrida de Luísa, ela morando em São Paulo e ele no Rio de Janeiro, Chico disse no podcast "PodDelas" em agosto que a distância não era um problema para eles e que a mudança para a capital paulista era uma possibilidade para o futuro."</string>
+    <string name="txtview_Infiel">
+    </string>
+    <string name="label_spinerPage">"Página:"</string>
+    <array name="number_pages_spinerPage">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
 </resources>
