@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.myapplication.databinding.MusicFragmentBinding;
+import com.example.myapplication.databinding.FragmentFirstBinding;
 
-public class musicFragment extends Fragment {
+public class FirstFragment extends Fragment {
 
-    private MusicFragmentBinding binding;
+    private FragmentFirstBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class musicFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = MusicFragmentBinding.inflate(inflater, container, false);
+        binding = FragmentFirstBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,8 +29,8 @@ public class musicFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.btnBackHistory.setOnClickListener(v ->
-                NavHostFragment.findNavController(musicFragment.this)
+        binding.buttonFirst.setOnClickListener(v ->
+                NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment)
         );
     }
