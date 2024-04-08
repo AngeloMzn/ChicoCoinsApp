@@ -35,6 +35,7 @@
             android:layout_height="48dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
+            android:layout_marginBottom="100dp"
             android:entries="@array/number_pages_spinnerPage" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -44,7 +45,9 @@
             android:layout_margin="30dp"
             android:background="@drawable/background_button"
             android:text="Músicas"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_home"
@@ -52,8 +55,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:background="@drawable/background_button"
-            android:textColor="@color/white"
-            android:text="Home" />
+            android:text="Home"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
