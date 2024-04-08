@@ -6,16 +6,45 @@
     <string name="chicoInfiel">"Chico infiel"</string>
     <string name="chicoFiel">"Chico o mais fiel"</string>
     <array name="array_string_fiel">
-        <item>"Chico estourou a bolha dos fãs do Casimiro, seu amigo e motivo pelo qual ficou conhecido, ao ganhar destaque no Twitter e no TikTok após participar de um podcast com a atriz Valentina Bandeira. A dupla fazia parte de uma ação publicitária em que os dois falavam sobre relacionamentos, e ele ganhou a fama de sedutor na internet depois que alguns trechos do programa viralizaram nas redes. Inclusive, foi a partir desses trechos que Luísa Sonza teria conhecido o rapaz. Em um dos cortes virais, a cantora comentou: "Quem é?". Após o flerte na web, os dois se encontraram pela primeira vez em um show de Caetano Veloso."</item>
-        <item>"A cantora e o influenciador assumiram o relacionamento em julho deste ano, após Chico fazer uma declaração de aniversário para ela em sua rede social. Com a agenda corrida de Luísa, ela morando em São Paulo e ele no Rio de Janeiro, Chico disse no podcast PodDelas em agosto que a distância não era um problema para eles e que a mudança para a capital paulista era uma possibilidade para o futuro."</item>
-        <item>"Após declarações românticas nas redes, Luísa Sonza lança "Chico", bossa nova inspirada no seu amado. A canção faz parte do álbum "Escândalo Íntimo", divulgado no final de agosto. O projeto viralizou e deu o que falar, mas foi no The Town, que estourou de vez.
-            A canção virou número um das plataformas de áudio, meme na internet e pauta em uma discussão se era uma bossa ou não. Até Caetano Veloso entrou no assunto."</item>
+        <item>"Chico estourou a bolha dos fãs do Casimiro, seu amigo e motivo pelo qual ficou
+            conhecido, ao ganhar destaque no Twitter e no TikTok após participar de um podcast com a
+            atriz Valentina Bandeira. A dupla fazia parte de uma ação publicitária em que os dois
+            falavam sobre relacionamentos, e ele ganhou a fama de sedutor na internet depois que
+            alguns trechos do programa viralizaram nas redes. Inclusive, foi a partir desses trechos
+            que Luísa Sonza teria conhecido o rapaz. Em um dos cortes virais, a cantora comentou:
+            "Quem é?". Após o flerte na web, os dois se encontraram pela primeira vez em um show de
+            Caetano Veloso."
+        </item>
+        <item>"A cantora e o influenciador assumiram o relacionamento em julho deste ano, após Chico
+            fazer uma declaração de aniversário para ela em sua rede social. Com a agenda corrida de
+            Luísa, ela morando em São Paulo e ele no Rio de Janeiro, Chico disse no podcast PodDelas
+            em agosto que a distância não era um problema para eles e que a mudança para a capital
+            paulista era uma possibilidade para o futuro."
+        </item>
+        <item>"Após declarações românticas nas redes, Luísa Sonza lança "Chico", bossa nova
+            inspirada no seu amado. A canção faz parte do álbum "Escândalo Íntimo", divulgado no
+            final de agosto. O projeto viralizou e deu o que falar, mas foi no The Town, que
+            estourou de vez.
+            A canção virou número um das plataformas de áudio, meme na internet e pauta em uma
+            discussão se era uma bossa ou não. Até Caetano Veloso entrou no assunto."
+        </item>
     </array>
     <array name="txtview_infiel">
-        <item>"Quarta-feira, 20 de setembro de 2023. Luísa Sonza é a convidada do Mais Você no Dia do Gaúcho. Entre muitos assuntos, como infância e carreira musical, a jovem de 25 anos revela em rede nacional, por meio de uma carta aberta, o fim do relacionamento com Chico Moedas. "</item>
-        <item>"O anúncio cai como uma bomba na internet e vira, desde então, um dos principais temas da semana. A cantora recebeu apoio de muitos famosos, mas foi questionada se tudo não passava de marketing. Segundo alguns internautas, a ordem das músicas do novo álbum sugerem uma desilusão amorosa. Até o bar em que a traição teria acontecido virou notícia, virou point de selfies e recebeu avaliações curiosas no Google.
-            Até o momento, ele não se pronunciou sobre o caso. "</item>
-        <item>"Mas um perfil fake surpreendeu a internet ao divulgar uma postagem com um falso pronunciamento no Instagram."</item>
+        <item>"Quarta-feira, 20 de setembro de 2023. Luísa Sonza é a convidada do Mais Você no Dia
+            do Gaúcho. Entre muitos assuntos, como infância e carreira musical, a jovem de 25 anos
+            revela em rede nacional, por meio de uma carta aberta, o fim do relacionamento com Chico
+            Moedas. "
+        </item>
+        <item>"O anúncio cai como uma bomba na internet e vira, desde então, um dos principais temas
+            da semana. A cantora recebeu apoio de muitos famosos, mas foi questionada se tudo não
+            passava de marketing. Segundo alguns internautas, a ordem das músicas do novo álbum
+            sugerem uma desilusão amorosa. Até o bar em que a traição teria acontecido virou
+            notícia, virou point de selfies e recebeu avaliações curiosas no Google.
+            Até o momento, ele não se pronunciou sobre o caso. "
+        </item>
+        <item>"Mas um perfil fake surpreendeu a internet ao divulgar uma postagem com um falso
+            pronunciamento no Instagram."
+        </item>
     </array>
     <string name="label_spinerPage">"Página:"</string>
     <array name="list_HistoriaChico">
@@ -29,4 +58,12 @@
         <item>"3"</item>
     </array>
     <string name="mainTitle">"Bem-vindo a história do edit do Chico Moedas"</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="txt_musicTittle">"Escolha uma musica:"</string>
+
 </resources>
