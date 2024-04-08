@@ -22,5 +22,6 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="32dp"
         android:gravity="left"
-        android:text="@string/txtview_fiel" />
+        android:text=""
+        />
 </FrameLayout>

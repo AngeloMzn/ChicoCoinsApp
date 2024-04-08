@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.TextView;
 
 
 /**
@@ -25,6 +25,7 @@ public class Frag_ChicoFiel extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private int page = 0;
 
     public Frag_ChicoFiel() {
         // Required empty public constructor
@@ -39,7 +40,7 @@ public class Frag_ChicoFiel extends Fragment {
      * @return A new instance of fragment frag3.
      */
     // TODO: Rename and change types and number of parameters
-    public static Frag_ChicoFiel newInstance(String param1, String param2) {
+    public  Frag_ChicoFiel newInstance(String param1, String param2) {
         Frag_ChicoFiel fragment = new Frag_ChicoFiel();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -60,8 +61,48 @@ public class Frag_ChicoFiel extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chico_fiel, container, false);
+        View view = inflater.inflate(R.layout.fragment_chico_fiel, container, false);
+
+        TextView textView = view.findViewById(R.id.txtview_fiel);
+
+        String[] texto = getResources().getStringArray(R.array.array_string_fiel);
+
+        switch (page){
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
+
+        return view;
+    }
+
+
+    public void updateContent(int position) {
+        TextView textView = getView().findViewById(R.id.txtview_fiel);
+        String[] texto = getResources().getStringArray(R.array.array_string_fiel);
+
+        switch (position) {
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+                break;
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
     }
 
 }

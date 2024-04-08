@@ -7,8 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-
+import android.widget.TextView;
 
 
 /**
@@ -63,5 +62,24 @@ public class Frag_ChicoInfiel extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_chico_infiel, container, false);
+    }
+    public void updateContent(int position) {
+        TextView textView = getView().findViewById(R.id.txtview_Infiel);
+        String[] texto = getResources().getStringArray(R.array.txtview_infiel);
+
+        switch (position) {
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+                break;
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
     }
 }

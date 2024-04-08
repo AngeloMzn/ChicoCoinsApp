@@ -31,10 +31,11 @@
 
         <Spinner
             android:id="@+id/spinnerPage"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:entries="@array/number_pages_spinnerPage" />
     </LinearLayout>
 
     <LinearLayout
