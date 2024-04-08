@@ -14,19 +14,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/captura_de_tela_2024_04_06_002723"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/captura_de_tela_2024_04_06_002723" />
 
     <TextView
-        android:text="Bem vindo ao edit do Chico Moedas"
+        android:id="@+id/txtview_BemVindoMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtview_BemVindoMain"
-        />
-    <Button
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_borda"
+        android:gravity="center_horizontal"
+        android:text="Bem vindo ao edit do Chico Moedas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_entrarMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="130dp"
+        android:background="@drawable/background_button"
         android:text="Entrar"
-        tools:layout_editor_absoluteX="0dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="130dp"
         tools:layout_editor_absoluteY="619dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
