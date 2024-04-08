@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 
@@ -25,6 +26,9 @@ public class ChicoHistoryActivity extends AppCompatActivity {
     private FragmentManager fm = getSupportFragmentManager();
     private Spinner spinner;
     private String spinnerPageItem = "0";
+    private Button btn_music;
+    private Button btn_home;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,6 +124,15 @@ public class ChicoHistoryActivity extends AppCompatActivity {
 
 
                 }
+            }
+        });
+
+        Button btn_music = findViewById(R.id.btn_music);
+
+        btn_music.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
             }
         });
     }
