@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -132,7 +133,18 @@ public class ChicoHistoryActivity extends AppCompatActivity {
         btn_music.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                Intent itMusic = new Intent(ChicoHistoryActivity.this, EditMusicActivity.class);
+                startActivity(itMusic);
+            }
+        });
+
+        Button btn_home = findViewById(R.id.btn_home);
+
+        btn_home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent itHome = new Intent(ChicoHistoryActivity.this, MainActivity.class);
+                startActivity(itHome);
             }
         });
     }
