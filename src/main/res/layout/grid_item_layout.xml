@@ -5,10 +5,12 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_grid_item"
-        android:layout_width="wrap_content"
+        android:layout_width="103dp"
         android:layout_height="wrap_content"
-        android:text="Clique Aqui" />
+        android:background="@drawable/background_button"
+        android:text="Clique Aqui"
+        android:textColor="@color/white" />
 
 </LinearLayout>
