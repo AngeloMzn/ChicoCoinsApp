@@ -26,6 +26,8 @@ public class Frag_ChicoInfiel extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    private int page = 0;
+
     public Frag_ChicoInfiel() {
         // Required empty public constructor
     }
@@ -61,8 +63,28 @@ public class Frag_ChicoInfiel extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chico_infiel, container, false);
+        View view = inflater.inflate(R.layout.fragment_chico_infiel, container, false);
+
+        TextView textView = view.findViewById(R.id.txtview_Infiel);
+
+        String[] texto = getResources().getStringArray(R.array.txtview_infiel);
+
+        switch (page){
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
+        return view;
     }
+
     public void updateContent(int position) {
         TextView textView = getView().findViewById(R.id.txtview_Infiel);
         String[] texto = getResources().getStringArray(R.array.txtview_infiel);

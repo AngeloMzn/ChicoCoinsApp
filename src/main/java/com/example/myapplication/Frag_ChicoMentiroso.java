@@ -7,8 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-
+import android.widget.TextView;
 
 
 /**
@@ -26,6 +25,7 @@ public class Frag_ChicoMentiroso extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private int page = 0;
 
     public Frag_ChicoMentiroso() {
         // Required empty public constructor
@@ -62,6 +62,46 @@ public class Frag_ChicoMentiroso extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chico_mentiroso, container, false);
+        View view = inflater.inflate(R.layout.fragment_chico_mentiroso, container, false);
+
+        TextView textView = view.findViewById(R.id.txt_fds);
+
+        String[] texto = getResources().getStringArray(R.array.txtview_euTentei);
+
+        switch (page){
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
+        return view;
+    }
+
+
+    public void updateContent(int position) {
+        TextView textView = getView().findViewById(R.id.txt_fds);
+        String[] texto = getResources().getStringArray(R.array.txtview_euTentei);
+
+        switch (position) {
+            case 0:
+                textView.setText(texto[0]);
+                break;
+            case 1:
+                textView.setText(texto[1]);
+                break;
+            case 2:
+                textView.setText(texto[2]);
+                break;
+            default:
+                textView.setText(texto[0]);
+                break;
+        }
     }
 }

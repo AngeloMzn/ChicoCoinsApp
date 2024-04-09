@@ -86,6 +86,20 @@ public class ChicoHistoryActivity extends AppCompatActivity {
                             fragChicoInfiel.updateContent(2);
                             break;
                     }
+                } else {
+                    Frag_ChicoMentiroso fragChicoMentiroso = (Frag_ChicoMentiroso) currentFragment;
+
+                    switch (position){
+                        case 0:
+                            fragChicoMentiroso.updateContent(0);
+                            break;
+                        case 1:
+                            fragChicoMentiroso.updateContent(1);
+                            break;
+                        case 2:
+                            fragChicoMentiroso.updateContent(2);
+                            break;
+                    }
                 }
             }
 

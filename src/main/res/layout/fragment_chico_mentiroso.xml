@@ -18,11 +18,10 @@
 
     <TextView
         android:id="@+id/txt_fds"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:gravity="center"
-        android:layout_marginTop="150dp"
+        android:layout_width="170dp"
+        android:layout_height="483dp"
         android:layout_marginLeft="5dp"
-        android:text="TextView" />
+        android:layout_marginTop="32dp"
+        android:gravity="left" />
 
 </FrameLayout>

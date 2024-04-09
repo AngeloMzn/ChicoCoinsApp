@@ -2,7 +2,7 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="chicoMentiroso">"Chico mentiroso"</string>
+    <string name="chicoMentiroso">"Chico eu tentei"</string>
     <string name="chicoInfiel">"Chico infiel"</string>
     <string name="chicoFiel">"Chico o mais fiel"</string>
     <array name="array_string_fiel">
@@ -46,11 +46,29 @@
             pronunciamento no Instagram."
         </item>
     </array>
+    <array name="txtview_euTentei">
+        <item>"O meme 'eu tentei', surgiu depois que a internet ficou sabendo da traição de Chico.
+            Após a Luísa Sonza ir a o programa Mais Você e expor toda a situação, inúmeras montagens
+            com fotos do Chico e junto da música 'Aquariano Nato' foram feitas. Atualmente as redes socias
+            estão infestadas com montagens (são chamadas geralmente de 'edits') do Chico Moedas com a música
+            Aquariano Nato entre outras músicas."
+        </item>
+        <item>"Muitas das pessoas que gostam de todo esse movimento das edits do Chico Moedas, são geralmente pessoas
+            que não são muito fans da Luísa Sonza. Mas no meio deste pessoal que gostam dos edits, são apenas jovens que
+            gostam da brincadeira de gozar da situação. Assim como os criadores deste aplicativo."
+        </item>
+        <item>"Do banheiro da Lapa para os palcos do TikTok, Chico Moedas ganhou muita fama entre os jovens.
+            Atualmente a música Aquariano Nato, tem muita fama por causa deste caso de Chico Moedas. Tanto sucesso
+            que o criador da música criou uma música especial baseada na história do Chico. Atualmente todas as músicas
+            lançadas pelo artista são munições para novas edits de Chico Moedas o nosso Aquariano Nato."
+        </item>
+    </array>
+
     <string name="label_spinerPage">"Página:"</string>
     <array name="list_HistoriaChico">
         <item>Chico o mais fiel</item>
         <item>Chico infiel</item>
-        <item>Chico o brabo</item>
+        <item>Chico eu tentei</item>
     </array>
     <array name="number_pages_spinnerPage">
         <item>"1"</item>
