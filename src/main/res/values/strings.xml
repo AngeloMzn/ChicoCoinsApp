@@ -77,11 +77,11 @@
     </array>
     <string name="mainTitle">"Bem-vindo a história do edit do Chico Moedas"</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">"Musicas do Edit do Chico"</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
+    <string name="btn_BackHistory">"Voltar"</string>
     <string name="previous">Previous</string>
 
     <string name="txt_musicTittle">"Escolha uma musica:"</string>
-
+    <string name="btn_pause_continue">"P/R"</string>
 </resources>
